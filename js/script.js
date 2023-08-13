@@ -14,6 +14,11 @@
         render();
     };
 
+    const toggleTaskDone = (taskIndex) => {
+        tasks[taskIndex].done = !tasks[taskIndex].done
+        render();
+    };
+
     const render = () => {
         let htmlString = "";
 
@@ -42,6 +47,14 @@
         removeButtons.forEach((removeButton, taskIndex) => {
             removeButton.addEventListener("click", () => {
                 removeTask(taskIndex);
+            });
+        });
+
+        const toggleDoneButtons = document.querySelectorAll(".js-done");
+
+        toggleDoneButtons.forEach((toggleDoneButton, taskIndex) => {
+            toggleDoneButton.addEventListener("click", () => {
+                toggleTaskDone(taskIndex);
             });
         });
     };
