@@ -11,4 +11,5 @@
 
 .section__body {
     padding: 20px;
+    word-break: break-word;
 }
