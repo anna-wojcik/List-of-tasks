@@ -24,7 +24,11 @@ Newly added tasks are listed. if any task has been done, you can uncheck it by c
 ## Technologies Used
 - HTML 5
 - CSS 3
-- JavaScript
+- JavaScript ES6
+- Normalize CSS
+- BEM Convention
+- Grid
+- Media Queries
 
 ## Gif
 ![list of tasks](https://github.com/anna-wojcik/List-of-tasks/assets/139044927/88fb336c-42cd-49ef-a451-3689f8b24a98)
