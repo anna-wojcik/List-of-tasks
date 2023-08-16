@@ -6,7 +6,7 @@ The subject of the project is a list of tasks. This page allows you to create a 
 * [Technologies Used](#technologies-used)
 * [Gif](#gif)
 * [Project Status](#project-status)
-* [Acknowledgements](#acknowlegements)
+* [Acknowledgements](#acknowledgements)
 * [Author](#author)
 
 ## Site
