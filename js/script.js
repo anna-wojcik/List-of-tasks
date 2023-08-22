@@ -39,11 +39,11 @@
         });
     };
 
-    const render = () => {
-        let htmlString = "";
+    const renderTasks = () => {
+        let tasksListHTMLContent = "";
 
         for (const task of tasks) {
-            htmlString += `
+            tasksListHTMLContent += `
                 <li 
                     class="tasks__item js-task"
                 >
@@ -60,7 +60,11 @@
             `;
         }
 
-        document.querySelector(".js-tasks").innerHTML = htmlString;
+        document.querySelector(".js-tasks").innerHTML = tasksListHTMLContent;
+    };
+
+    const render = () => {
+        renderTasks();
 
         bindRemoveEvents();
         bindToggleDoneEvents();
