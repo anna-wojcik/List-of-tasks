@@ -5,11 +5,48 @@
 
 .section__header {
     padding: 20px;
-    border-bottom: 1px solid #ddd;
     margin: 0;
 }
 
 .section__body {
     padding: 20px;
+    border-top: 1px solid #ddd;
     word-break: break-word;
+}
+
+.section__headerArea {
+    display: grid;
+    grid-template-columns: 1fr auto auto;
+    align-items: center;
+}
+
+@media (max-width: 767px) {
+    .section__headerArea {
+        grid-template-columns: 1fr;
+    }
+} 
+
+.section__buttons {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+    align-items: center;
+    padding: 20px;
+}
+
+@media (max-width: 767px) {
+    .section__buttons {
+        grid-template-columns: 1fr;
+        padding: 0 20px 20px;
+    }
+}
+
+.section__button {
+    background: none;
+    border: none;
+    color: teal;
+}
+
+.section__button:disabled {
+    color: #ccc;
 }
