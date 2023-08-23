@@ -30,6 +30,7 @@
 
 .tasks__button--done:hover {
     background: hsl(120, 100%, 30%);
+    transition: background 0.5s;
 }
 
 .tasks__button--done:active {
@@ -42,6 +43,7 @@
 
 .tasks__button--remove:hover {
     background: hsl(0, 100%, 58%);
+    transition: background 0.5s;
 }
 
 .tasks__button--remove:active {
