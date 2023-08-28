@@ -20,13 +20,13 @@
     border: none;
     background: teal;
     color: white;
+    transition-property: background, transform;
+    transition-duration: 0.5s, 0.5s;
 }
 
 .form__button:hover {
     background: hsl(180, 100%, 30%);
     transform: scale(1.1);
-    transition-property: background, transform;
-    transition-duration: 0.5s, 0.5s;
 }
 
 .form__button:active {

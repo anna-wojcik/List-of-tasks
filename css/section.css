@@ -45,11 +45,11 @@
     background: none;
     border: none;
     color: teal;
+    transition: background 0.5s, 0.5s;
 }
 
 .section__button:hover {
     color: hsl(180, 100%, 35%);
-    transition: background 0.5s, 0.5s;
 }
 
 .section__button:disabled {
