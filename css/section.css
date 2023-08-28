@@ -46,6 +46,7 @@
     border: none;
     color: teal;
     transition: background 0.5s, 0.5s;
+    cursor: pointer;
 }
 
 .section__button:hover {
@@ -54,4 +55,5 @@
 
 .section__button:disabled {
     color: #ccc;
+    cursor: not-allowed;
 }
